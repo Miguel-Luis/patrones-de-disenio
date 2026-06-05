@@ -20,6 +20,12 @@ public class EnTransito implements Estado {
     }
 
     @Override
+    public void llegarDestino(Ruta ruta) {  
+        System.out.println("El autobús ha llegado a su destino.");
+        ruta.setEstado(new EnEspera());
+    }
+
+    @Override
     public void ingresarMantenimiento(Ruta ruta) {
         System.out.println("[EnTransito] NO PERMITIDO - No se puede ingresar a mantenimiento mientras el autobús está en tránsito.");
     }

@@ -20,6 +20,10 @@ public class Mantenimiento implements Estado {
     }
 
     @Override
+    public void llegarDestino(Ruta ruta) {
+        System.out.println("[Mantenimiento] NO PERMITIDO - No se puede llegar a destino mientras el autobús está en mantenimiento.");
+    }
+    @Override
     public void ingresarMantenimiento(Ruta ruta) {
         System.out.println("[Mantenimiento] El autobús ya está en mantenimiento.");
     }

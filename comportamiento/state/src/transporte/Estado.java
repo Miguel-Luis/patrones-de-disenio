@@ -3,6 +3,7 @@ public interface Estado {
     void iniciarAbordaje(Ruta ruta);
     void modificarAsiento(Ruta ruta, int asiento);
     void iniciarViaje(Ruta ruta);
+    void llegarDestino(Ruta ruta);
     void ingresarMantenimiento(Ruta ruta);
     void finalizarMantenimiento(Ruta ruta);
     String getNombre();

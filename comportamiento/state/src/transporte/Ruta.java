@@ -55,4 +55,8 @@ public class Ruta {
         estadoActual.finalizarMantenimiento(this);
     }
 
+    public void llegarDestino() {
+        estadoActual.llegarDestino(this);
+    }
+
 }

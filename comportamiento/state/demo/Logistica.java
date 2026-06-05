@@ -32,7 +32,9 @@ public class Logistica {
 
         System.out.println("\nFinalizando viaje y volviendo a EnEspera");
         System.out.println("\nFinalizando viaje...");   
-        rutaBarcelona.setEstado(new EnEspera());
+        rutaBarcelona.llegarDestino();
+        
+
     }
 
 }

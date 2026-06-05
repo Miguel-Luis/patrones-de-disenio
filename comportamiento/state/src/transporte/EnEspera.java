@@ -26,6 +26,11 @@ public class EnEspera implements Estado {
     }
 
     @Override
+    public void llegarDestino(Ruta ruta) {
+        System.out.println("No se puede llegar a destino sin iniciar el viaje.");
+    }
+
+    @Override
     public void ingresarMantenimiento(Ruta ruta) {
         System.out.println("Pasando a mantenimiento desde EnEspera.");
         ruta.setEstado(new Mantenimiento());
