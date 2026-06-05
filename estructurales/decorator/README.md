@@ -1,28 +1,49 @@
 # Decorator
 
-**Categoría:** Estructural 🟢 · **Responsable:** _por asignar_
+**Categoría:** Estructural 🟢 · **Responsable:** Yurani Álvarez 
 
 ## 📌 Problema
-_Describe el problema que resuelve este patrón (¿por qué existe?)._
+
+Cuando una aplicación necesita agregar funcionalidades a un objeto sin modificar su código ni crear muchas subclases.
+
+Ejemplo: una biblioteca que inicialmente envía correos electrónicos, pero luego necesita enviar SMS y WhatsApp.
+
+Sin Decorator aparecerían muchas clases:
+- EmailNotifier
+- EmailSMSNotifier
+- EmailWhatsAppNotifier
+- EmailSMSWhatsAppNotifier
+
+Esto hace difícil mantener el código.
+
+---
 
 ## 💡 Solución
-_Explica cómo lo resuelve._
+
+Decorator permite envolver un objeto con otros objetos decoradores que agregan comportamiento adicional.
+
+Cada decorador mantiene la misma interfaz del objeto original.
+
+---
 
 ## 🧭 Estructura / Diagrama
-_Agrega aquí el diagrama UML o la estructura de clases._
+
+Ver carpeta `diagrams/`.
+
+---
 
 ## 🧪 Ejemplo de uso
-_Describe un ejemplo del mundo real._
+
+Enviar una notificación por:
+
+Correo → SMS → WhatsApp
+
+---
 
 ## ▶️ Cómo ejecutar
-_Instrucciones para correr tu demo._
 
-## 🗂️ Estructura de la carpeta
-```
-decorator/
-├── README.md
-├── src/        # Código fuente
-├── examples/   # Ejemplo(s) de uso
-├── diagrams/   # (Opcional) UML
-└── tests/      # (Opcional) pruebas
-```
+Entrar a examples y ejecutar:
+
+```bash
+javac *.java ../src/*.java
+java Demo
