@@ -24,7 +24,7 @@ Este repositorio reúne la implementación de los **patrones de diseño** clási
 
 ## ⬇️ Clonar el repositorio
 
-Para descargar el proyecto en tu computador, ejecuta:
+Para descargar el proyecto en tu computador, debes ejecutar:
 
 ```bash
 git clone https://github.com/Miguel-Luis/patrones-de-disenio.git
