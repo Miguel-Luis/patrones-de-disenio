@@ -120,7 +120,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Memento | `comportamiento/memento` | _por asignar_ |
 | Observer | `comportamiento/observer` | _por asignar_ |
 | State | `comportamiento/state` | _por asignar_ |
-| Strategy | `comportamiento/strategy` | _por asignar_ |
+| Strategy | `comportamiento/strategy` | david florez |
 | Template Method | `comportamiento/template-method` | _por asignar_ |
 | Visitor | `comportamiento/visitor` | _por asignar_ |
 
