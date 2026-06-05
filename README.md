@@ -91,7 +91,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | --- | --- | --- |
 | Abstract Factory | `creacionales/abstract-factory` | _por asignar_ |
 | Builder | `creacionales/builder` | _por asignar_ |
-| Factory Method | `creacionales/factory-method` | _por asignar_ |
+| Factory Method | `creacionales/factory-method` | _Rodolfo agudelo cruz_|
 | Prototype | `creacionales/prototype` | _por asignar_ |
 | Singleton | `creacionales/singleton` | _por asignar_ |
 
