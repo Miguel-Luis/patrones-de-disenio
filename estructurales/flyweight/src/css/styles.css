@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: #050816;
+  cursor: none;
+}
+
+canvas {
+  display: block;
+}
+
+.info {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.metrics {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  color: #00FF88;
+  font-family: Arial, sans-serif;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #00FF88;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.metrics h4 {
+  margin-bottom: 8px;
+  color: #00F5FF;
+  font-size: 14px;
+}
+
+.metrics p {
+  margin: 4px 0;
+}
+
+.metrics span {
+  color: #FFD700;
+  font-weight: bold;
+}
