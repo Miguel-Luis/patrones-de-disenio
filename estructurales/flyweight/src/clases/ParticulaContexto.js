@@ -3,14 +3,14 @@
    Estado extrínseco
 ========================================================== */
 class ParticulaContexto {
-    constructor(x, y, velocidadX, velocidadY, vida, flyweight) {
+    constructor(x, y, velocidadX, velocidadY, vida, ParticulaFlyweight) {
         this.x = x;
         this.y = y;
         this.velocidadX = velocidadX;
         this.velocidadY = velocidadY;
         this.vida = vida;
         this.vidaMaxima = vida;
-        this.flyweight = flyweight;
+        this.tipoParticula = ParticulaFlyweight;
     }
 
     actualizar() {
@@ -21,7 +21,7 @@ class ParticulaContexto {
 
     dibujar(ctx) {
         const opacity = this.vida / this.vidaMaxima;
-        this.flyweight.dibujar(ctx, this.x, this.y, opacity);
+        this.tipoParticula.dibujar(ctx, this.x, this.y, opacity);
     }
 
     estaMuerta() {

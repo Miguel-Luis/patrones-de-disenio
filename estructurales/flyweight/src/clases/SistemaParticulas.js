@@ -13,9 +13,10 @@ class SistemaParticulas {
     crearParticulas(mouseX, mouseY) {
         const colores = [
             "#00F5FF",
-            "#FF00D4",
-            "#FFD700",
-            "#00FF88"
+            "#7f8a1c",
+            "#635611",
+            "#287c55",
+            "#ff0000"
         ];
 
         for (let i = 0; i < 20; i++) {
@@ -26,7 +27,7 @@ class SistemaParticulas {
             const velocidadY = Math.sin(angle) * speed;
 
             const color = colores[Math.floor(Math.random() * colores.length)];
-            const radius = Math.floor(Math.random() * 4) + 2;
+            const radius = Math.floor(Math.random() * 4) + 4;
 
             const flyweight = this.fabrica.obtenerFlyweight(color, radius);
 

@@ -5,24 +5,24 @@ import { ParticulaFlyweight } from "./ParticulaFlyweight.js";
 ========================================================== */
 class ParticulaFabrica {
     constructor() {
-        this.flyweights = new Map();
+        this.particulaTipos = new Map();
     }
 
-    obtenerFlyweight(color, radius) {
+    obtenerTipoParticula(color, radius) {
         const key = `${color}-${radius}`;
 
-        if (!this.flyweights.has(key)) {
-            this.flyweights.set(
+        if (!this.particulaTipos.has(key)) {
+            this.particulaTipos.set(
                 key,
                 new ParticulaFlyweight(color, radius)
             );
         }
 
-        return this.flyweights.get(key);
+        return this.particulaTipos.get(key);
     }
 
     contar() {
-        return this.flyweights.size;
+        return this.particulaTipos.size;
     }
 }
 

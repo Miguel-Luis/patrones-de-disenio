@@ -5,7 +5,7 @@ import { SistemaParticulas } from "./SistemaParticulas.js";
 ========================================================== */
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-const radioMargen = 40; // Radio alrededor del puntero
+const radioMargen = 10; // Radio alrededor del puntero
 
 // Elementos de métricas
 const fpsElement = document.getElementById("fps");
