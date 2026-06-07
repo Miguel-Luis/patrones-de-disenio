@@ -29,7 +29,7 @@ class SistemaParticulas {
             const color = colores[Math.floor(Math.random() * colores.length)];
             const radius = Math.floor(Math.random() * 4) + 4;
 
-            const flyweight = this.fabrica.obtenerFlyweight(color, radius);
+            const flyweight = this.fabrica.obtenerTipoParticula(color, radius);
 
             this.particulas.push(
                 new ParticulaContexto(
