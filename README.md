@@ -121,7 +121,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Observer | `comportamiento/observer` | _por asignar_ |
 | State | `comportamiento/state` | _por asignar_ |
 | Strategy | `comportamiento/strategy` | _por asignar_ |
-| Template Method | `comportamiento/template-method` | _por asignar_ |
+| Template Method | `comportamiento/template-method` |kevinsanchez444|
 | Visitor | `comportamiento/visitor` | _por asignar_ |
 
 > ✍️ Cuando tomes un patrón, reemplaza _por asignar_ con tu nombre en la tabla correspondiente.
