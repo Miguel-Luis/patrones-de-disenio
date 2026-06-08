@@ -23,7 +23,6 @@ _El patrón se compone principalmente de:_
 2. **Subsistemas Complejos (Subsystems):** El conjunto de clases que realizan el trabajo real. No conocen la existencia de la Fachada.
 3. **Cliente (Client):** Utiliza la Fachada en lugar de llamar directamente a los subsistemas.
 
-     ```text
 ```mermaid
 graph TD
     Demo[Demo <br><i>Código cliente: Alto nivel</i>] 
@@ -34,7 +33,7 @@ graph TD
     HomeTheaterFacade --> SistemaAudio[SistemaAudio]
     
     style Demo fill:#f9f,stroke:#333,stroke-width:2px
-    style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px
+    style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px```
 
 > **Nota:** El diagrama UML se encuentra en facade/diagrams
 
