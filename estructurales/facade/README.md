@@ -24,19 +24,17 @@ _El patrón se compone principalmente de:_
 3. **Cliente (Client):** Utiliza la Fachada en lugar de llamar directamente a los subsistemas.
 
      ```text
-       +------------------+
-       |       Demo       | <========== (Código cliente: Alto nivel)
-       +------------------+
-                 |
-                 v
-       +------------------+
-       |HomeTheaterFacade | <========== (La Fachada Simplificada)
-       +------------------+
-         /       |        \
-        v        v         v
-  +--------+ +--------+ +--------+
-  | Luces  | |Proyector| | Audio  | <= (Subsistemas Complejos)
-  +--------+ +--------+ +--------+
+```mermaid
+graph TD
+    Demo[Demo <br><i>Código cliente: Alto nivel</i>] 
+    --> HomeTheaterFacade[HomeTheaterFacade <br><i>La Fachada Simplificada</i>]
+
+    HomeTheaterFacade --> LucesTenues[LucesTenues]
+    HomeTheaterFacade --> Proyector[Proyector]
+    HomeTheaterFacade --> SistemaAudio[SistemaAudio]
+    
+    style Demo fill:#f9f,stroke:#333,stroke-width:2px
+    style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px
 
 > **Nota:** El diagrama UML se encuentra en facade/diagrams
 
