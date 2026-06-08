@@ -36,7 +36,7 @@ graph TD
     style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px
     ```
 
-> **Nota:** El diagrama UML se encuentra en facade/diagrams
+> **Nota:** El diagrama UML se encuentra en facade/diagrams.
 
 ## 🧪 Ejemplo de uso
 _Imagina que quieres armar un sistema de Cine en Casa (Home Theater). Para ver una película, normalmente tendrías que hacer todo esto manualmente en tu código:._
