@@ -23,19 +23,20 @@ _El patrón se compone principalmente de:_
 2. **Subsistemas Complejos (Subsystems):** El conjunto de clases que realizan el trabajo real. No conocen la existencia de la Fachada.
 3. **Cliente (Client):** Utiliza la Fachada en lugar de llamar directamente a los subsistemas.
 
+     ```text
        +------------------+
-       |       Demo       | <========= (Codigo cliente: Alto nivel)
+       |       Demo       | <========== (Código cliente: Alto nivel)
        +------------------+
                  |
                  v
        +------------------+
-       | HomeTheaterFacade| <========= (La Fachada Simplificada)
+       |HomeTheaterFacade | <========== (La Fachada Simplificada)
        +------------------+
          /       |        \
         v        v         v
-+-----------+ +---------+ +------------+
-|LucesTenues| |Proyector| |SistemaAudio| <= (Subsistemas Complejos)
-+-----------+ +---------+ +------------+
+  +--------+ +--------+ +--------+
+  | Luces  | |Proyector| | Audio  | <= (Subsistemas Complejos)
+  +--------+ +--------+ +--------+
 
 > **Nota:** El diagrama UML se encuentra en facade/diagrams
 
