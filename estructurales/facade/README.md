@@ -33,7 +33,8 @@ graph TD
     HomeTheaterFacade --> SistemaAudio[SistemaAudio]
     
     style Demo fill:#f9f,stroke:#333,stroke-width:2px
-    style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px```
+    style HomeTheaterFacade fill:#bbf,stroke:#333,stroke-width:2px
+    ```
 
 > **Nota:** El diagrama UML se encuentra en facade/diagrams
 
