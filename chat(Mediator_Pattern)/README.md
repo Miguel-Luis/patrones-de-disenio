@@ -1,40 +1,40 @@
 # 💬 Patrón de Diseño: Mediator (Mediador)
 
-## 📌 Nombre y Categoría del Patrón
+##  Nombre y Categoría del Patrón
 * **Nombre:** Mediator (Mediador)
 * **Categoría:** Patrón de Comportamiento (Behavioral Pattern)
 * **Patrón Adicional Aplicado:** Modelo-Vista-Controlador (MVC) para la arquitectura de la interfaz gráfica.
 
 ---
 
-## 🚨 Problema que resuelve (¿Por qué existe?)
+##  Problema que resuelve (¿Por qué existe?)
 En sistemas complejos donde múltiples objetos necesitan interactuar entre sí (por ejemplo, múltiples usuarios en una sala de chat), la comunicación directa entre ellos genera un **acoplamiento fuerte** (código espagueti). Si la "Clase A" tiene que conocer directamente a la "Clase B", "Clase C" y "Clase D" para enviarles un mensaje, el sistema se vuelve casi imposible de mantener, escalar o modificar. Si un usuario se desconecta o cambia, habría que actualizar el código de todos los demás usuarios.
 
 ---
 
-## ✅ Solución que propone (¿Cómo lo resuelve?)
+##  Solución que propone (¿Cómo lo resuelve?)
 El patrón Mediator propone **restringir las comunicaciones directas** entre los objetos y obligarlos a colaborar únicamente a través de un objeto "Mediador". 
 
 En lugar de que los usuarios se envíen mensajes entre sí, todos envían sus mensajes al `Mediator`. El mediador contiene la lógica para enrutar y distribuir esos mensajes a los destinatarios correctos. De esta forma, los objetos `User` son completamente independientes entre sí; solo necesitan conocer la existencia del Mediador.
 
 ---
-## 🌍 Ejemplos del Mundo Real
+##  Ejemplos del Mundo Real
 
-### ✈️ Torre de Control del Aeropuerto
+###  Torre de Control del Aeropuerto
 
 Los aviones no se comunican directamente entre sí para decidir quién aterriza primero. En cambio, se comunican con la **Torre de Control (Mediador)**, que coordina el uso de las pistas y el orden de aterrizaje.
 
-### 💬 Sistemas de Chat (Nuestra Aplicación)
+###  Sistemas de Chat (Nuestra Aplicación)
 
 Aplicaciones como **WhatsApp** o **Discord** no conectan tu teléfono directamente con el de tu amigo. Tu dispositivo envía el mensaje a un **servidor central (Mediador)**, y el servidor lo reenvía al destinatario.
 
-### 🏠 Sistemas de Hogar Inteligente
+###  Sistemas de Hogar Inteligente
 
 Un botón inteligente no está programado para encender una bombilla específica directamente. En cambio, notifica al **Concentrador Central (Mediador)** que se ha pulsado, y el concentrador decide qué dispositivos deben reaccionar (luces, persianas, alarmas, etc.).
 
 ---
 
-# 🚀 Ejecución de la demo
+#  Ejecución de la demo
 
 ## Requisitos previos
 
@@ -105,7 +105,7 @@ Después de ejecutar la aplicación:
 
 --
 
-## 🏗️ Roles del Patrón en este Proyecto
+##  Roles del Patrón en este Proyecto
 
 ### Mediador
 
@@ -129,7 +129,7 @@ Contiene la lógica de negocio de la aplicación y los datos del usuario.
 
 --
 
-## 📌 Beneficios del Patrón Mediador
+##  Beneficios del Patrón Mediador
 
 - Reduce el acoplamiento entre objetos.
 
@@ -142,7 +142,7 @@ Contiene la lógica de negocio de la aplicación y los datos del usuario.
 - Simplifica la gestión de la interacción entre múltiples componentes.
 
 
-## 🏗️ Estructura de Clases
+##  Estructura de Clases
 
 Nuestra implementación separa claramente la lógica de negocio (Model) de la interfaz gráfica (View) utilizando un Controlador, mientras el Mediador maneja la red.
 
