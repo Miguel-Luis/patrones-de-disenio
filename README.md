@@ -89,7 +89,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 
 | Patrón | Carpeta | Responsable |
 | --- | --- | --- |
-| Abstract Factory | `creacionales/abstract-factory` | _por asignar_ |
+| Abstract Factory | `creacionales/abstract-factory` | jhonny Castrillon Calle  |
 | Builder | `creacionales/builder` | _por asignar_ |
 | Factory Method | `creacionales/factory-method` | _por asignar_ |
 | Prototype | `creacionales/prototype` | _por asignar_ |
