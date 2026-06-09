@@ -1,0 +1,33 @@
+@startuml
+
+title Abstract Factory Pattern - Sequence Diagram
+
+actor Main
+
+participant "MedievalFactory\nor\nSciFiFactory" as Factory
+participant GameDemo
+participant Character
+participant Weapon
+participant Mount
+
+Main -> Factory : create factory
+Main -> GameDemo : new GameDemo(factory)
+
+activate GameDemo
+
+GameDemo -> Factory : createCharacter()
+Factory --> GameDemo : Character
+
+GameDemo -> Factory : createWeapon()
+Factory --> GameDemo : Weapon
+
+GameDemo -> Factory : createMount()
+Factory --> GameDemo : Mount
+
+GameDemo -> Character : use()
+GameDemo -> Weapon : use()
+GameDemo -> Mount : use()
+
+deactivate GameDemo
+
+@enduml
