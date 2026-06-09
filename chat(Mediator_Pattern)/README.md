@@ -83,7 +83,7 @@ java src.examples.Main
 
 ---
 
-## 🖥️ Uso de la demo
+##  Uso de la demo
 
 Después de ejecutar la aplicación:
 
