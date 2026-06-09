@@ -102,7 +102,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | --- | --- | --- |
 | Adapter | `estructurales/adapter` | _por asignar_ |
 | Bridge | `estructurales/bridge` | _por asignar_ |
-| Composite | `estructurales/composite` | _por asignar_ |
+| Composite | `estructurales/composite` | Juan David Maldonado |
 | Decorator | `estructurales/decorator` | _por asignar_ |
 | Facade | `estructurales/facade` | _por asignar_ |
 | Flyweight | `estructurales/flyweight` | _por asignar_ |
