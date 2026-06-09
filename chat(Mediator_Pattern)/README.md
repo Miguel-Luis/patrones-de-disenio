@@ -169,6 +169,7 @@ classDiagram
         <<abstract>>
         #id: int
         #name: String
+        #number: String
         #mediator: Mediator
         +send(message: String)*
         +receive(message: String)*
@@ -189,8 +190,10 @@ classDiagram
     }
 
     class UserLayer {
+        -window: JFrame
         -chatArea: JTextArea
         -inputfield: JTextField
+        -sendButton: JButton
         +SetGUI(user: User)
         +displayMessage(message: String)
     }
