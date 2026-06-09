@@ -114,7 +114,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Patrón | Carpeta | Responsable |
 | --- | --- | --- |
 | Chain of Responsibility | `comportamiento/chain-of-responsibility` | _por asignar_ |
-| Command | `comportamiento/command` | _por asignar_ |
+| Command | `comportamiento/command` | _Samuel Murillo_ |
 | Iterator | `comportamiento/iterator` | _por asignar_ |
 | Mediator | `comportamiento/mediator` | _por asignar_ |
 | Memento | `comportamiento/memento` | _por asignar_ |
