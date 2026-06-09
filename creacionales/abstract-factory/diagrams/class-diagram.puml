@@ -1,0 +1,54 @@
+@startuml
+
+title Abstract Factory Pattern - Class Diagram
+
+interface GameFactory {
+    +createCharacter(): Character
+    +createWeapon(): Weapon
+    +createMount(): Mount
+}
+
+class MedievalFactory
+class SciFiFactory
+
+GameFactory <|.. MedievalFactory
+GameFactory <|.. SciFiFactory
+
+interface Character
+interface Weapon
+interface Mount
+
+class Knight
+class Soldier
+
+class Sword
+class LaserGun
+
+class Horse
+class Spaceship
+
+Character <|.. Knight
+Character <|.. Soldier
+
+Weapon <|.. Sword
+Weapon <|.. LaserGun
+
+Mount <|.. Horse
+Mount <|.. Spaceship
+
+MedievalFactory ..> Knight : creates
+MedievalFactory ..> Sword : creates
+MedievalFactory ..> Horse : creates
+
+SciFiFactory ..> Soldier : creates
+SciFiFactory ..> LaserGun : creates
+SciFiFactory ..> Spaceship : creates
+
+class GameDemo
+
+GameDemo --> GameFactory : uses
+GameDemo --> Character
+GameDemo --> Weapon
+GameDemo --> Mount
+
+@enduml
