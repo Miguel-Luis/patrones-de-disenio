@@ -105,7 +105,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Composite | `estructurales/composite` | _por asignar_ |
 | Decorator | `estructurales/decorator` | _por asignar_ |
 | Facade | `estructurales/facade` | _por asignar_ |
-| Flyweight | `estructurales/flyweight` | _por asignar_ |
+| Flyweight | `estructurales/flyweight` | _Victor Manuel Fernandez Valencia_ |
 | Proxy | `estructurales/proxy` | Juan Pablo Ramírez González |
 
 ### 🟡 De comportamiento
