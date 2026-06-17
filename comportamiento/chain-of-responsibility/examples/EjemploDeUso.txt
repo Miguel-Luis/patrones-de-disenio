@@ -1,0 +1,28 @@
+# Ejemplo de uso
+
+## Escenario
+
+Una empresa cuenta con tres niveles de atención para resolver solicitudes de soporte técnico.
+
+Cuando llega una solicitud, esta es enviada primero al Soporte Nivel 1. Si no puede resolverla, la envía al Soporte Nivel 2. Si tampoco puede resolverla, la solicitud es enviada al Gerente.
+
+## Fragmento de código
+
+```java
+Handler levelOne = new LevelOneSupport();
+Handler levelTwo = new LevelTwoSupport();
+Handler manager = new Manager();
+
+levelOne.setNextHandler(levelTwo);
+levelTwo.setNextHandler(manager);
+
+levelOne.handleRequest(new Request("alta"));
+```
+
+## Resultado esperado
+
+```text
+El gerente resolvió la solicitud.
+```
+
+En este caso, la solicitud tiene prioridad alta, por lo que pasa por toda la cadena hasta llegar al Gerente, quien es el encargado de resolverla.
