@@ -1,0 +1,13 @@
+src/com/patterns/abstractfactory/client/GameDemo.java
+src/com/patterns/abstractfactory/factory/GameFactory.java
+src/com/patterns/abstractfactory/factory/MedievalFactory.java
+src/com/patterns/abstractfactory/factory/SciFiFactory.java
+src/com/patterns/abstractfactory/products/character/Character.java
+src/com/patterns/abstractfactory/products/character/Knight.java
+src/com/patterns/abstractfactory/products/character/Soldier.java
+src/com/patterns/abstractfactory/products/mount/Horse.java
+src/com/patterns/abstractfactory/products/mount/Mount.java
+src/com/patterns/abstractfactory/products/mount/Spaceship.java
+src/com/patterns/abstractfactory/products/weapon/LaserGun.java
+src/com/patterns/abstractfactory/products/weapon/Sword.java
+src/com/patterns/abstractfactory/products/weapon/Weapon.java
