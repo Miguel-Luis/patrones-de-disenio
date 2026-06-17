@@ -106,7 +106,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Decorator | `estructurales/decorator` | _por asignar_ |
 | Facade | `estructurales/facade` | _por asignar_ |
 | Flyweight | `estructurales/flyweight` | _por asignar_ |
-| Proxy | `estructurales/proxy` | _por asignar_ |
+| Proxy | `estructurales/proxy` | Juan Pablo Ramírez González |
 
 ### 🟡 De comportamiento
 > Se ocupan de **cómo se comunican y colaboran** los objetos entre sí.
