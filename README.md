@@ -102,7 +102,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | --- | --- | --- |
 | Adapter | `estructurales/adapter` | _por asignar_ |
 | Bridge | `estructurales/bridge` | _por asignar_ |
-| Composite | `estructurales/composite` | _por asignar_ |
+| Composite | `estructurales/composite` | Juan David Maldonado |
 | Decorator | `estructurales/decorator` | _por asignar_ |
 | Facade | `estructurales/facade` | _por asignar_ |
 | Flyweight | `estructurales/flyweight` | _por asignar_ |
@@ -116,6 +116,8 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Chain of Responsibility | `comportamiento/chain-of-responsibility` | _por asignar_ |
 | Command | `comportamiento/command` | _Samuel Murillo_ |
 | Iterator | `comportamiento/iterator` | _por asignar_ |
+| Command | `comportamiento/command` | _por asignar_ |
+| Iterator | `comportamiento/iterator` | _Juan Manuel Giraldo_ |
 | Mediator | `comportamiento/mediator` | _por asignar_ |
 | Memento | `comportamiento/memento` | _por asignar_ |
 | Observer | `comportamiento/observer` | _por asignar_ |
