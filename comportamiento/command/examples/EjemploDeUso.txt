@@ -1,0 +1,22 @@
+Ejemplo de uso
+Un control remoto universal con deshacer
+
+Imagina un control remoto que puede manejar distintos dispositivos (lámpara, TV, aire acondicionado). Cada botón del control se puede programar con un comando diferente. Además, el control tiene un botón "deshacer" que revierte la última acción.
+
+El ejemplo concreto que implementamos:
+
+Receptor: una Lámpara que sabe encenderse y apagarse.
+
+Comandos concretos: EncenderLámpara, ApagarLámpara. Cada uno guarda la lámpara que va a controlar.
+
+Emisor: el ControlRemoto. Tiene un botón ejecutar y otro deshacer. También mantiene una pila de comandos ejecutados.
+
+Cliente: programa el control remoto con los comandos de encendido/apagado.
+
+Interacción típica:
+
+El usuario pulsa "Encender"  el control ejecuta el comando y la lámpara se enciende.
+
+El usuario pulsa "Apagar"  la lámpara se apaga.
+
+El usuario pulsa "Deshacer"  el control recupera el último comando (ApagarLámpara) y ejecuta su undo(), que vuelve a encender la lámpara.
