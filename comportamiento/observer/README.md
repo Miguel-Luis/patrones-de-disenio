@@ -1,6 +1,6 @@
 # Observer
 
-**Categoría:** De comportamiento 🟡 · **Responsable:** _por asignar_
+**Categoría:** De comportamiento 🟡 · **Responsable:** _MaTeo00011_
 
 ## 📌 Problema
 _Describe el problema que resuelve este patrón (¿por qué existe?)._
