@@ -118,7 +118,7 @@ El repositorio organiza los patrones en las **tres familias** clásicas:
 | Iterator | `comportamiento/iterator` | _por asignar_ |
 | Mediator | `comportamiento/mediator` | _por asignar_ |
 | Memento | `comportamiento/memento` | _por asignar_ |
-| Observer | `comportamiento/observer` | _por asignar_ |
+| Observer | `comportamiento/observer` | _MaTeo00011_ |
 | State | `comportamiento/state` | _por asignar_ |
 | Strategy | `comportamiento/strategy` | _por asignar_ |
 | Template Method | `comportamiento/template-method` | _por asignar_ |
